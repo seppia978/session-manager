@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 from SessionManager import __version__
 
@@ -10,5 +10,6 @@ setup(
     author='seppis978',
     author_email='samuele.poppi@unimore.it',
 
-    py_modules=['session_manager_978'],
+    py_modules=find_packages(),
+    packages=find_packages(),
 )
