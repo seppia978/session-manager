@@ -1,14 +1,14 @@
 from setuptools import setup
 
-from my_pip_package import __version__
+from SessionManager import __version__
 
 setup(
-    name='my_pip_package',
+    name='session-manager-978',
     version=__version__,
 
-    url='https://github.com/MichaelKim0407/tutorial-pip-package',
-    author='Michael Kim',
-    author_email='mkim0407@gmail.com',
+    url='https://github.com/seppia978/session-manager',
+    author='seppis978',
+    author_email='samuele.poppi@unimore.it',
 
-    py_modules=['my_pip_package'],
+    py_modules=['session_manager_978'],
 )
